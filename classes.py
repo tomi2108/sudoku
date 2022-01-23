@@ -30,7 +30,7 @@ class Cell:
         return self.fila,self.col
 
     def draw_highlight(self,win):
-        highlight = pygame.image.load("Python/Proyectos/Sudoku_solver/Images/highlight.png")
+        highlight = pygame.image.load("./Images/highlight.png")
         win.blit(highlight,(self.x,self.y))
 
     def draw_arrow(self,win):

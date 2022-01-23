@@ -71,38 +71,38 @@ def main(win,width):
     main_diag_y= 3*const.R_WIDTH
     main_diag_width= 2*const.R_WIDTH
     main_diag_height= const.R_WIDTH
-    main_diag_b = cl.On_off_button(main_diag_width,main_diag_height,main_diag_x,main_diag_y,"Python/Proyectos/Sudoku_solver/Images/main_diag_on.jpg","Python/Proyectos/Sudoku_solver/Images/main_diag_off.jpg")
+    main_diag_b = cl.On_off_button(main_diag_width,main_diag_height,main_diag_x,main_diag_y,"./Images/main_diag_on.jpg","./Images/main_diag_off.jpg")
     
 
     x_sums_x = const.S_WIDTH+2*const.R_WIDTH
     x_sums_y= 5*const.R_WIDTH
     x_sums_width= 2*const.R_WIDTH
     x_sums_height= const.R_WIDTH
-    x_sums_b = cl.On_off_button(x_sums_width,x_sums_height,x_sums_x,x_sums_y,"Python/Proyectos/Sudoku_solver/Images/x_sums_on.jpg","Python/Proyectos/Sudoku_solver/Images/x_sums_off.jpg")
+    x_sums_b = cl.On_off_button(x_sums_width,x_sums_height,x_sums_x,x_sums_y,"./Images/x_sums_on.jpg","./Images/x_sums_off.jpg")
 
     arrows_x = const.S_WIDTH+2*const.R_WIDTH
     arrows_y= 7*const.R_WIDTH
     arrows_width= 2*const.R_WIDTH
     arrows_height= const.R_WIDTH
-    arrows_b = cl.On_off_button(arrows_width,arrows_height,arrows_x,arrows_y,"Python/Proyectos/Sudoku_solver/Images/arrows_on.jpg","Python/Proyectos/Sudoku_solver/Images/arrows_off.jpg")
+    arrows_b = cl.On_off_button(arrows_width,arrows_height,arrows_x,arrows_y,"./Images/arrows_on.jpg","./Images/arrows_off.jpg")
 
     thermo_x = const.S_WIDTH+2*const.R_WIDTH
     thermo_y= 9*const.R_WIDTH
     thermo_width= 2*const.R_WIDTH
     thermo_height= const.R_WIDTH
-    thermo_b = cl.On_off_button(thermo_width,thermo_height,thermo_x,thermo_y,"Python/Proyectos/Sudoku_solver/Images/thermos_on.jpg","Python/Proyectos/Sudoku_solver/Images/thermos_off.jpg")
+    thermo_b = cl.On_off_button(thermo_width,thermo_height,thermo_x,thermo_y,"./Images/thermos_on.jpg","./Images/thermos_off.jpg")
 
     pencil_x = const.S_WIDTH+2*const.R_WIDTH
     pencil_y = 5*const.D_WIDTH-const.D_WIDTH/2
     pencil_width = 38
     pencil_height= 38
-    pencil_b = cl.On_off_button(pencil_width,pencil_height,pencil_x,pencil_y,"Python/Proyectos/Sudoku_solver/Images/pencil.jpg","Python/Proyectos/Sudoku_solver/Images/pen.jpg")
+    pencil_b = cl.On_off_button(pencil_width,pencil_height,pencil_x,pencil_y,"./Images/pencil.jpg","./Images/pen.jpg")
 
     reset_x = 0
     reset_y = const.WIDTH - 50
     reset_width = 50
     reset_height = 50
-    reset_b = cl.Push_button(reset_x,reset_y,reset_width,reset_height,"Python/Proyectos/Sudoku_solver/Images/reset.jpg","Python/Proyectos/Sudoku_solver/Images/reset_click.jpg")
+    reset_b = cl.Push_button(reset_x,reset_y,reset_width,reset_height,"./Images/reset.jpg","./Images/reset_click.jpg")
 
     colors_f= [0,0,0,0,0,0,0,0,0]
 
