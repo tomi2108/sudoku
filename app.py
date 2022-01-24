@@ -11,7 +11,7 @@ pygame.init()
 PANTALLA =  pygame.display.set_mode((const.WIDTH,const.WIDTH))
 pygame.display.set_caption("Sudoku_solver")
 
-
+clock = pygame.time.Clock()
 
 #Dibujar botones
 def draw_buttons(win):
@@ -109,6 +109,7 @@ def main(win,width):
 
     draw_background(win)   
     while run: 
+        clock.tick(60)
         draw(win)
         grilla.draw_grid(win)
         pencil_b.draw(win)
